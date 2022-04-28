@@ -281,6 +281,8 @@ p {
 }
 
 .social__link {
+    width: 39px;
+    height: 39px;
     text-decoration: none;
 }
 
@@ -290,3 +292,49 @@ p {
 
 
 /* testimonials */
+
+.testimonials {
+    background-color: #5C3249;
+}
+
+.testimonials__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.testimonials__img {
+    width: 50%;
+    height: 490px;
+    position: relative;
+}
+
+.testimonials__pic {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.testimonials__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding-left: 130px;
+}
+
+.testimonials__title {
+    margin-bottom: 15px;
+    font-family: 'Cardo', serif;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.testimonials__subtitle {
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
