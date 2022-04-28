@@ -338,3 +338,25 @@ p {
     color: #fff;
     text-transform: uppercase;
 }
+
+
+/* download */
+
+.download {
+    margin: 114px auto;
+    text-align: center;
+}
+
+.download__title {
+    margin-bottom: 22px;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.download__subtitle {
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
