@@ -22,8 +22,9 @@ p {
 
 .container {
     width: 100%;
-    max-width: 1170px;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 
@@ -183,6 +184,7 @@ p {
     height: 340px;
     position: relative;
     overflow: hidden;
+    border: 1px solid #fff;
 }
 
 .gallery__item:hover .gallery__content {
@@ -215,7 +217,7 @@ p {
     left: 0;
     z-index: 2;
     color: #fff;
-    border: 2px solid #FFFFFF;
+    border: 2px solid #fff;
 }
 
 .gallery__title {
@@ -229,3 +231,62 @@ p {
     font-size: 18px;
     font-weight: 400;
 }
+
+
+/* team */
+
+.team {
+    margin: 114px auto 100px;
+}
+
+.team__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.team__card {
+    width: 25%;
+    padding: 0 15px;
+    margin-bottom: 14px;
+}
+
+.card__img {
+    margin-bottom: 30px;
+    display: block;
+    width: 100%;
+    min-height: auto;
+}
+
+.card__title {
+    margin-bottom: 6px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #2D3033;
+}
+
+.card__subtitle {
+    margin-bottom: 18px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FF4343;
+    text-transform: uppercase;
+}
+
+.card__description {
+    margin-bottom: 38px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #6C7279;
+}
+
+.social__link {
+    text-decoration: none;
+}
+
+.social__link:not(:last-child) {
+    margin-right: 6px;
+}
+
+
+/* testimonials */
