@@ -64,12 +64,12 @@ p {
 }
 
 .nav__link:hover {
-    text-decoration: #BABBC5;
+    border-bottom: 2px solid #BABBC5;
 }
 
 .nav__link:active {
     color: #E71414;
-    text-decoration: #E71414;
+    border-bottom: 2px solid #E71414;
 }
 
 
@@ -273,7 +273,7 @@ p {
     text-transform: uppercase;
 }
 
-.card__description {
+.card__text {
     margin-bottom: 38px;
     font-size: 18px;
     font-weight: 400;
@@ -359,4 +359,62 @@ p {
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: #353C65;
+}
+
+.footer__wrapper {
+    padding: 71px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__part {
+    width: calc(100%/3);
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.footer__title {
+    margin-bottom: 29px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer__text {
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.footer .social {
+    margin-top: 48px;
+}
+
+.footer .social__link:not(:last-child) {
+    margin-right: 26px;
+}
+
+.copyright {
+    padding: 24px 0;
+    background-color: #2C3154;
+}
+
+.copyright__text {
+    font-size: 18px;
+    font-weight: 400;
+    color: #808080;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+span {
+    color: #fff;
 }
