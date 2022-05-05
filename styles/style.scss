@@ -376,3 +376,291 @@ p {
 span {
     color: #fff;
 }
+
+.header__burger {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .nav__link {
+        font-size: 0.75em;
+        &:not(:last-child) {
+            margin-right: 40px;
+        }
+    }
+    .banner {
+        height: 768px;
+        &__title {
+            margin-bottom: 61px;
+            font-size: 3.0em;
+        }
+        &__subtitle {
+            margin-bottom: 91px;
+            font-size: 1.125em;
+        }
+    }
+    .button {
+        width: 313px;
+        height: 78px;
+    }
+    .features {
+        margin: 78px 0 80;
+        &__item {
+            padding: 0 10px;
+            width: calc(100%/3);
+            text-align: center;
+            &:nth-child(n+4) {
+                margin-top: 45px;
+            }
+        }
+        &__img {
+            margin-bottom: 52px;
+        }
+        &__title {
+            margin-bottom: 24px;
+            font-size: 1.125em;
+        }
+        &__text {
+            font-size: 0.875em;
+        }
+    }
+    .gallery__item {
+        height: 230px;
+    }
+    .gallery__content {
+        height: 230px;
+    }
+    .gallery__title {
+        margin-bottom: 23px;
+        font-size: 1.125em;
+    }
+    .gallery__subtitle {
+        font-size: 0.875em;
+    }
+    .team {
+        margin: 78px auto 64px;
+    }
+    .card {
+        padding: 0 13px;
+        &__img {
+            margin-bottom: 25px;
+        }
+        &__title {
+            font-size: 1.125em;
+        }
+        &__subtitle {
+            margin-bottom: 22px;
+            font-size: 0.875em;
+        }
+        &__text {
+            margin-bottom: 39px;
+            font-size: 0.875em;
+        }
+    }
+    .social__link {
+        width: 33px;
+        height: 33px;
+        &:not(:last-child) {
+            margin-right: 5px;
+        }
+    }
+    .testimonials__img {
+        width: 50%;
+        height: 490px;
+        position: relative;
+    }
+    &__content {
+        width: 50%;
+        padding-left: 88px;
+    }
+    &__title {
+        margin-bottom: 12px;
+        font-size: 1.5em;
+    }
+    &__subtitle {
+        font-size: 0.75em;
+    }
+    .download {
+        margin: 78px auto;
+        &__title {
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+        &__subtitle {
+            margin-bottom: 46px;
+            font-size: 0.875em;
+        }
+        &__button {
+            font-size: 1.125em;
+        }
+    }
+    .footer {
+        background-color: #353C65;
+        &__wrapper {
+            padding: 46px 0 41px;
+        }
+        &__part {
+            font-size: 0.875em;
+        }
+        &__title {
+            margin-bottom: 16px;
+        }
+    }
+    .footer .social {
+        margin-top: 32px;
+        &__link:not(:last-child) {
+            margin-right: 23px;
+        }
+    }
+    .copyright {
+        padding: 14px 0;
+        &__text {
+            font-size: 0.875em;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+    .banner {
+        height: auto;
+        padding: 140px 20px 52px;
+        &__title {
+            margin-bottom: 32px;
+            font-size: 2.25em;
+        }
+        &__subtitle {
+            margin-bottom: 51px;
+            font-size: 0.875em;
+        }
+        &__button {
+            width: 279px;
+            height: 58px;
+        }
+    }
+    .features {
+        margin: 40px 0 35px;
+        padding: 0 20px;
+        &__item {
+            padding: 0;
+            margin: 0 0 40px;
+            width: 100%;
+            &:nth-child(n+4) {
+                margin-top: 0;
+            }
+        }
+        &__img {
+            margin-bottom: 30px;
+        }
+        &__title {
+            margin-bottom: 8px;
+        }
+    }
+    .gallery {
+        grid-template-columns: 50% 50%;
+        &__item {
+            height: 144px;
+        }
+        &__content {
+            height: 144px;
+        }
+        &__title {
+            margin-bottom: 8px;
+        }
+    }
+    .team {
+        margin: 35px auto;
+        &__wrapper {
+            padding: 0 20px;
+        }
+    }
+    .card {
+        width: 100%;
+        padding: 0 15px;
+        margin-bottom: 14px;
+        &__img {
+            margin-bottom: 25px;
+            width: 100%;
+            max-width: 280px;
+        }
+        &__subtitle {
+            margin-bottom: 38px;
+        }
+        &__text {
+            margin-bottom: 55px;
+        }
+    }
+    .card:not(:last-child) {
+        margin-bottom: 50px;
+    }
+    .social__link {
+        width: 39px;
+        height: 39px;
+    }
+    .testimonials {
+        background-color: #5C3249;
+        &__img {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+        &__content {
+            width: 100%;
+            padding: 0 20px 0 25px;
+            text-align: center;
+        }
+        &__title {
+            margin-bottom: 30px;
+            font-size: 1.5em;
+        }
+        &__subtitle {
+            margin-bottom: 95px;
+            font-size: 0.75em;
+        }
+    }
+    .download {
+        margin: 34px auto 45px;
+        padding: 0 20px;
+        &__title {
+            font-size: 1.125em;
+        }
+        &__subtitle {
+            margin-bottom: 14px;
+            font-size: 0.813em;
+        }
+        &__button {
+            width: 278px;
+            height: 78px;
+        }
+    }
+    .footer {
+        background-color: #353C65;
+        &__wrapper {
+            padding: 33px 20px;
+        }
+        &__part {
+            width: 100%;
+            font-size: 0.875em;
+            &:first-child {
+                margin-bottom: 69px;
+            }
+        }
+        &__title {
+            margin-bottom: 36px;
+        }
+    }
+    .footer .social {
+        margin-top: 36px;
+        margin-bottom: 59px;
+        &__link:not(:last-child) {
+            margin-right: 17px;
+        }
+    }
+    .copyright {
+        padding: 29px 0;
+        &__text {
+            font-size: 0.875em;
+        }
+    }
+}
