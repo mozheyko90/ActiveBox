@@ -7,29 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/style.css">
     <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>ActiveBox</title>
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <div class="container">
             <div class="header__wrapper">
                 <div class="header__logo">
                     <img src="/img/ACTIVE.svg" alt="logo">
                     <img src="/img/BOX.svg" alt="logo">
                 </div>
-                <nav class="nav">
+                <nav class="nav" id="nav">
                     <a class="nav__link" href="#features">features</a>
                     <a class="nav__link" href="#works">works</a>
                     <a class="nav__link" href="#team">our team</a>
                     <a class="nav__link" href="#testimonials">testimonials</a>
                     <a class="nav__link" href="#download">download</a>
                 </nav>
+                <div class="burger" id="navToggle">
+                    <span class="burger__line"></span>
+                </div>
             </div>
-        </div>
     </header>
     <main>
-        <section class="banner">
+        <section class="banner" id="banner">
             <div class="container">
                 <div class="banner__wrapper">
                     <h1 class="banner__title">Your Favorite One Page Multi Purpose Template</h1>
